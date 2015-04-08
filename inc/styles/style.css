@@ -2,3 +2,7 @@ p {
 	color: red;
 
 }
+
+.fa-github:hover {
+	color: blue;
+}
