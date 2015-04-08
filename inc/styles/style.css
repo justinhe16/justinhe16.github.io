@@ -4,6 +4,6 @@ p {
 }
 
 .fa-github:hover {
-	color: blue;
+	background-color: blue;
 	margin: 10px;
 }
