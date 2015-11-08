@@ -898,22 +898,7 @@ body {
   vertical-align: middle;
   padding-top: 0.5em;
   font-size: 3vw;
-  margin-bottom: 0em;
-}
-
-#banner .secondheading {
-  padding-bottom: 1em;
-  font-size: 2vw;
-  text-align: center;
-  margin: 0 auto;
-}
-
-#banner .heading {
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 0.5em;
-  font-size: 3vw;
-  margin-bottom: 0em;
+  margin-bottom: 0 auto;
 }
 
 #banner .secondheading {
