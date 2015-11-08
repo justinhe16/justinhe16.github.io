@@ -874,35 +874,57 @@ body {
   position: relative;
   top: 0;
   margin: 0;
-  background-image: url('../../test.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   float: left;
   clear:none;
+  background-image: url('../../test.jpg');
+  background-size: cover;oko
+  background-repeat: no-repeat;
+  color: white;
 }
 
 #banner .heading {
   text-align: center;
   vertical-align: middle;
   padding-top: 1.5em;
-  padding-bottom: 0em;
   margin-bottom: 0em;
 }
 
+#banner .secondheading {
+  padding-bottom: 1em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.circular {
+    padding: 0.5em;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 13em;
+    height: 13em;
+    border-radius: 7.5em;
+    -webkit-border-radius: 7.5em;
+    -moz-border-radius: 7.5em;
+}
+
 #banner #links {
-  padding: 1em;
+  padding: 2em;
   text-align: center;
   display: block;
   margin: 0 auto;
 }
 
+i {
+  padding-right: 0.2em;
+}
+
 #banner #links .link {
-  color: #999999;
+  color: white;
   transition: 0.5s;
 }
 
 #banner #links .link:hover {
-  color: blue;
+  color: #BFE3FE;
 }
 
 /* 4.0 - Content */
@@ -914,16 +936,17 @@ body {
   clear: none;
 }
 
+#interests .heading {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em;
+}
+
 .interest {
   width: 200px;
   height: 200px;
   background: black;
   border: groove;
-}
-
-.heading {
-  padding: 2em 2em 2em 2em;
-  text-align: center;
 }
 
 /* 5.0 - Footer */
