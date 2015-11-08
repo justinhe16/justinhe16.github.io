@@ -922,9 +922,9 @@ body {
     margin: 0 auto;
     width: 20vw;
     height: 20vw;
-    border-radius: 7.5em;
-    -webkit-border-radius: 7.5em;
-    -moz-border-radius: 7.5em;
+    border-radius: 10vw;
+    -webkit-border-radius: 10vw;
+    -moz-border-radius: 80vw;
 }
 
 #banner #links {
