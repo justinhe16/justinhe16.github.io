@@ -840,6 +840,11 @@ table {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 } /* Roboto Text, font-face importation */
 
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to { opacity: 1; } 
+}
+
 h1, h2 {
   font-family: 'Roboto-Light';
   font-weight: 100;
@@ -859,6 +864,11 @@ h3, h4 {
 
 /* 2.0 - General CSS */
 html {
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
   font-family: 'Roboto', sans-serif;
   background-color: #FFFFFF;
 }
