@@ -908,12 +908,48 @@ body {
   margin: 0 auto;
 }
 
+#banner .heading {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0.5em;
+  font-size: 3vw;
+  margin-bottom: 0em;
+}
+
+#banner .secondheading {
+  padding-bottom: 1em;
+  font-size: 2vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
 #banner .thirdheading {
   vertical-align: bottom;
   text-align: center;
   margin: 0 auto;
 }
 
+/*----- PHONES -----*/
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #banner .heading {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1.5em;
+    margin-bottom: 0em;
+  }
+
+  #banner .secondheading {
+    padding-bottom: 1em;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #banner .thirdheading {
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 
 .circular {
     padding: 0.5em;
@@ -926,6 +962,22 @@ body {
     -webkit-border-radius: 10vw;
     -moz-border-radius: 80vw;
 }
+
+/*----- PHONES -----*/
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .circular {
+    padding: 0.5em;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 17em;
+    height: 17em;
+    border-radius: 7.5em;
+    -webkit-border-radius: 7.5em;
+    -moz-border-radius: 7.5em;
+  }
+}
+
 
 #banner #links {
   padding: 2em;
