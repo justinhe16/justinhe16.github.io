@@ -881,14 +881,14 @@ body {
 /* 3.0 - Header/Banner */
 #banner {
   width: 100%;
-  height: 100%;
+  height: 40em;
   position: relative;
   top: 0;
   margin: 0;
   float: left;
   clear:none;
   background-image: url('../../test.jpg');
-  background-size: cover;oko
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
@@ -905,6 +905,13 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+
+#banner .thirdheading {
+  vertical-align: bottom;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 .circular {
     padding: 0.5em;
