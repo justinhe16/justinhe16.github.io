@@ -896,12 +896,14 @@ body {
 #banner .heading {
   text-align: center;
   vertical-align: middle;
-  padding-top: 1.5em;
+  padding-top: 0.5em;
+  font-size: 3vw;
   margin-bottom: 0em;
 }
 
 #banner .secondheading {
   padding-bottom: 1em;
+  font-size: 2vw;
   text-align: center;
   margin: 0 auto;
 }
@@ -918,8 +920,8 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 13em;
-    height: 13em;
+    width: 20vw;
+    height: 20vw;
     border-radius: 7.5em;
     -webkit-border-radius: 7.5em;
     -moz-border-radius: 7.5em;
