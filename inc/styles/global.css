@@ -920,18 +920,21 @@ body {
     text-align: center;
     vertical-align: middle;
     padding-top: 1.5em;
+    font-size: inherit;
     margin-bottom: 0em;
   }
 
   #banner .secondheading {
     padding-bottom: 1em;
     text-align: center;
+    font-size: inherit;
     margin: 0 auto;
   }
 
   #banner .thirdheading {
     vertical-align: bottom;
     text-align: center;
+    font-size: inherit;
     margin: 0 auto;
   }
 }
@@ -955,8 +958,8 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 17em;
-    height: 17em;
+    width: 13em;
+    height: 13em;
     border-radius: 7.5em;
     -webkit-border-radius: 7.5em;
     -moz-border-radius: 7.5em;
