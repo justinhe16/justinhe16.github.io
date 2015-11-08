@@ -898,7 +898,7 @@ body {
   vertical-align: middle;
   padding-top: 0.5em;
   font-size: 3vw;
-  margin-bottom: 0 auto;
+  margin: 0 auto;
 }
 
 #banner .secondheading {
@@ -919,23 +919,20 @@ body {
   #banner .heading {
     text-align: center;
     vertical-align: middle;
-    padding-top: 1.5em;
+    padding-top: 0.5em;
     font-size: inherit;
-    margin-bottom: 0em;
   }
 
   #banner .secondheading {
     padding-bottom: 1em;
     text-align: center;
     font-size: inherit;
-    margin: 0 auto;
   }
 
   #banner .thirdheading {
     vertical-align: bottom;
     text-align: center;
     font-size: inherit;
-    margin: 0 auto;
   }
 }
 
