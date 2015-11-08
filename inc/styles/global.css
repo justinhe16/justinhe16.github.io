@@ -846,12 +846,13 @@ table {
 }
 
 h1, h2 {
-  font-family: 'Roboto-Light';
-  font-weight: 100;
+  font-family: 'Roboto';
+  font-weight: 300;
 }
 
 h3, h4 {
-  font-family: 'Roboto-Light';
+  font-family: 'Roboto';
+  font-weight: 300;
 }
 
 /* 1.1 - Fontawesome */
