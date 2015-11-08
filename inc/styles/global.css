@@ -920,19 +920,19 @@ body {
     text-align: center;
     vertical-align: middle;
     padding-top: 0.5em;
-    font-size: inherit;
+    font-size: 3em;
   }
 
   #banner .secondheading {
     padding-bottom: 1em;
     text-align: center;
-    font-size: 6em;
+    font-size: 2em;
   }
 
   #banner .thirdheading {
     vertical-align: bottom;
     text-align: center;
-    font-size: inherit;
+    font-size: 2em;
   }
 }
 
