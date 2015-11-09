@@ -887,7 +887,7 @@ body {
   margin: 0;
   float: left;
   clear:none;
-  background-image: url('../../test.jpg');
+  background-image: url('../assets/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -915,7 +915,7 @@ body {
 }
 
 /*----- PHONES -----*/
-@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 480px){
   #banner .heading {
     text-align: center;
     vertical-align: middle;
@@ -949,7 +949,7 @@ body {
 }
 
 /*----- PHONES -----*/
-@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 480px){
     .circular {
     padding: 0.5em;
     text-align: center;
@@ -1000,10 +1000,18 @@ i {
 }
 
 .interest {
+  margin: 1em 1em 2em 2em;
   width: 200px;
   height: 200px;
-  background: black;
-  border: groove;
+  background: white; 
+
+  border:2px double #66B9F8;
+  -webkit-border:2px double #66B9F8;
+  -moz-border:2px double #66B9F8;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 /* 5.0 - Footer */
