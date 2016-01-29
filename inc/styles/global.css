@@ -1000,10 +1000,10 @@ i {
 
 /*----- PHONES -----*/
 @media only screen and (max-width: 480px){
-    .circular {
+    #banner img {
     padding: 0.5em;
     text-align: center;
-    display: block;
+    display: none;
     margin: 0 auto;
     width: 13em;
     height: 13em;
