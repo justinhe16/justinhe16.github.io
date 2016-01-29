@@ -7,7 +7,4 @@ $(document).ready(function(){
   });
   $('#banner #links').fadeIn( 1400, function(){}).css("display","block");
   $('#prof').fadeIn( 1400, function(){}).css("display","block");
-  particlesJS.load('particles-js', 'inc/scripts/particles.json', function() {
-  console.log('particles.js loaded - callback');
-  });
 });
