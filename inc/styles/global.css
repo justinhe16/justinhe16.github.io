@@ -949,9 +949,11 @@ i {
   color: #BFE3FE;
 }
 
-
 #banner #scroll {
-  padding: 2em;
+  position: relative;
+  display: none;
+  bottom: 0;
+  padding: 0;
   text-align: center;
   color: white;
   margin: 0 auto;
