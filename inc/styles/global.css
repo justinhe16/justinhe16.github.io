@@ -1031,24 +1031,52 @@ i {
 .interest {
   margin: 0.5em 0.5em 1em 0.5em;
   padding: 0.5em;
-  width: 8em;
-  height: 10em;
+  width: 7em;
+  height: 9em;
   max-width: 18em;
   max-height: 20em;
   display: inline-block;
-  background: blue; 
+  background: #8FCDFC; 
   float: inherit;
   text-align: center;
   line-height: 8em;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
 
-  border:2px double #66B9F8;
+  /*border:2px double #66B9F8;
   -webkit-border:2px double #66B9F8;
-  -moz-border:2px double #66B9F8;
-  border-radius: 10px;
+  -moz-border:2px double #66B9F8;*/
+  /*border-radius: 10px;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  -moz-border-radius: 10px;*/
 }
+
+#QuikCarts {
+  background-image: url("../assets/QuikCarts.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#Duelr {
+  color: black;
+  background-image: url("../assets/Duelr.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#TrinDebate {
+  background-image: url("../assets/TrinDebate.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#Signal {
+  background-image: url("../assets/Signal.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
 
 /* 5.0 - Footer */
 #footer {
