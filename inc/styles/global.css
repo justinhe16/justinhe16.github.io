@@ -1014,6 +1014,30 @@ i {
 }
 
 /* 4.0 - Content */
+.fadeInScroll {
+  opacity: 0;
+}
+
+#bio {
+  width: 100%;
+  position: relative;
+  float: left;
+  clear: none; 
+  background: #8FCDFC;
+}
+
+#bio .heading {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em;
+}
+
+#bio p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0.5em 5em 2em 5em;
+}
+
 #interests {
   width: 100%;
   position: relative;
