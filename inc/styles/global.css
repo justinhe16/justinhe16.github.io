@@ -881,7 +881,7 @@ body {
 /* 3.0 - Header/Banner */
 #banner {
   width: 100%;
-  height: 100%;
+  height: 110%;
   position: relative;
   top: 0;
   margin: 0;
@@ -893,7 +893,7 @@ body {
 
 #background-photo {
   width: 100%;
-  height: 100%;
+  height: 110%;
   position: absolute;
   background-image: url('../assets/background.jpg');
   background-size: cover;
@@ -905,7 +905,7 @@ body {
   position: absolute; 
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 110%;
 }
 
 #banner .heading {
