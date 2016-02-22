@@ -879,7 +879,7 @@ body {
 }
 
 /* 3.0 - Header/Banner */
-.banner {
+#banner {
   width: 100%;
   height: 100%;
   position: relative;
@@ -893,7 +893,7 @@ body {
   color: white;
 }
 
-.banner .heading {
+#banner .heading {
   display: none;
   text-align: center;
   vertical-align: middle;
@@ -902,7 +902,7 @@ body {
   margin: 0 auto;
 }
 
-.banner .secondheading {
+#banner .secondheading {
   display: none;
   padding-bottom: 1em;
   font-size: 2vw;
@@ -910,14 +910,14 @@ body {
   margin: 0 auto;
 }
 
-.banner .thirdheading {
+#banner .thirdheading {
   display: none;
   vertical-align: bottom;
   text-align: center;
   margin: 0 auto;
 }
 
-.banner img {
+#banner img {
     padding: 0.5em;
     text-align: center;
     display: none;
@@ -929,7 +929,7 @@ body {
     -moz-border-radius: 80vw;
 }
 
-.banner #links {
+#banner #links {
   padding: 2em;
   text-align: center;
   display: none;
@@ -940,16 +940,16 @@ i {
   padding-right: 0.2em;
 }
 
-.banner #links .link {
+#banner #links .link {
   color: white;
   transition: 0.5s;
 }
 
-.banner #links .link:hover {
+#banner #links .link:hover {
   color: #BFE3FE;
 }
 
-.banner #scroll {
+#banner #scroll {
   position: relative;
   display: none;
   bottom: 0;
@@ -959,26 +959,26 @@ i {
   margin: 0 auto;
 }
 
-.banner #scroll .link {
+#banner #scroll .link {
   color: white;
   transition: 0.5s;
 }
 /*----- PHONES -----*/
 @media only screen and (max-width: 480px){
-  .banner .heading {
+  #banner .heading {
     text-align: center;
     vertical-align: middle;
     padding-top: 0.5em;
     font-size: 3em;
   }
 
-  .banner .secondheading {
+  #banner .secondheading {
     padding-bottom: 1em;
     text-align: center;
     font-size: 2em;
   }
 
-  .banner .thirdheading {
+  #banner .thirdheading {
     vertical-align: bottom;
     text-align: center;
     font-size: 2em;
@@ -1000,7 +1000,7 @@ i {
 
 /*----- PHONES -----*/
 @media only screen and (max-width: 480px){
-    .banner img {
+    #banner img {
     padding: 0.5em;
     text-align: center;
     display: none;
