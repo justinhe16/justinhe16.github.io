@@ -941,7 +941,7 @@ body {
     height: 20vw;
     border-radius: 10vw;
     -webkit-border-radius: 10vw;
-    -moz-border-radius: 80vw;
+    -moz-border-radius: 10vw;
 }
 
 #banner #links {
@@ -1031,6 +1031,16 @@ i {
 /* 4.0 - Content */
 .fadeInScroll {
   opacity: 0;
+  font-weight: 300;
+}
+
+.fadeInScrollInterest {
+  opacity: 0;
+}
+
+.fadeInScrollInterest:hover{
+  box-shadow: 0 0 0 5px #66B9F8;
+  transition: 0.5s ease;
 }
 
 #bio {
@@ -1056,9 +1066,8 @@ i {
 #interests {
   width: 100%;
   position: relative;
-  background: #BFE3FE;
+  background: #BFE3FE; 
   float: left;
-  clear: none;
 }
 
 #interests .heading {
@@ -1075,31 +1084,61 @@ i {
   max-width: 18em;
   max-height: 20em;
   display: inline-block;
+  float: left;
   background: #8FCDFC; 
-  float: inherit;
   text-align: center;
-  line-height: 8em;
   font-size: 40px;
   font-weight: 300;
   color: white;
+}
 
-  /*border:2px double #66B9F8;
-  -webkit-border:2px double #66B9F8;
-  -moz-border:2px double #66B9F8;*/
-  /*border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;*/
+.text {
+  padding-top: 2.5em;
+  transition: 1s ease;
+}
+
+.text:hover, .text.hovered {
+  padding-top: 0em;
+  margin-top: 0em;
+  transition: 0.5s ease;
+}
+
+.subtextwrapper {
+  margin-top: -1em;
+}
+
+.subtext {
+  display: none;
+  font-size: 22px;
+  padding-bottom: 5px;
+  font-weight: 300;
+  text-align: left;
 }
 
 #QuikCarts {
-  background-image: url("../assets/QuikCarts.png");
+  background: url("../assets/QuikCarts.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+#QuikCarts:hover {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.15)
+    ), url("../assets/Quikcarts.png");
   background-size: cover;
   background-repeat: repeat;
 }
 
 #Duelr {
-  color: black;
-  background-image: url("../assets/Duelr.png");
+  background: url("../assets/Duelr.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+#Duelr:hover {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.15)
+    ), url("../assets/Duelr.png");
   background-size: cover;
   background-repeat: repeat;
 }
@@ -1109,13 +1148,28 @@ i {
   background-size: cover;
   background-repeat: repeat;
 }
+#TrinDebate:hover {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.15)
+    ), url("../assets/TrinDebate.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
 
 #Signal {
   background-image: url("../assets/Signal.png");
   background-size: cover;
   background-repeat: repeat;
 }
-
+#Signal:hover {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.15)
+    ), url("../assets/Signal.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
 
 /* 5.0 - Footer */
 #footer {

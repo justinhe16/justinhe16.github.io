@@ -27,6 +27,29 @@ $(document).ready(function(){
                 $(this).animate({'opacity':'1'}, 1400);
             }
         }); 
+
+        $('.fadeInScrollInterest').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window - 500;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'}, 1400, function(){
+                    $(this).css("transition","0.5s ease");
+                });
+            }
+        }); 
     });
 
+  $('.interest').hover(function(){
+    $(this).children().toggleClass("hovered");
+    $(this).children().fadeIn(700, function(){});
+  });
+  $('.interest').mouseleave(function(){
+    $('.subtext').fadeOut(200, function(){});
+  });
 });
