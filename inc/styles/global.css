@@ -1124,7 +1124,7 @@ i {
   background: linear-gradient(
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.15)
-    ), url("../assets/Quikcarts.png");
+    ), url("../assets/QuikCarts.png");
   background-size: cover;
   background-repeat: repeat;
 }
