@@ -1038,6 +1038,10 @@ i {
   opacity: 0;
 }
 
+.fadeInScrollFooter {
+  opacity: 0;
+}
+
 .fadeInScrollInterest:hover{
   box-shadow: 0 0 0 5px #66B9F8;
   transition: 0.5s ease;
