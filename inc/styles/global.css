@@ -1122,8 +1122,8 @@ i {
 }
 #QuikCarts:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.5)
     ), url("../assets/QuikCarts.png");
   background-size: cover;
   background-repeat: repeat;
@@ -1136,8 +1136,8 @@ i {
 }
 #Duelr:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.5)
     ), url("../assets/Duelr.png");
   background-size: cover;
   background-repeat: repeat;
@@ -1150,8 +1150,8 @@ i {
 }
 #TrinDebate:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.5)
     ), url("../assets/TrinDebate.png");
   background-size: cover;
   background-repeat: repeat;
@@ -1164,8 +1164,8 @@ i {
 }
 #Signal:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.15)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.5)
     ), url("../assets/Signal.png");
   background-size: cover;
   background-repeat: repeat;
