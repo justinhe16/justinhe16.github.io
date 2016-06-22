@@ -62,9 +62,9 @@ $(document).ready(function(){
 
   $('.interest').hover(function(){
     $(this).children().toggleClass("hovered");
-    $(this).children().fadeIn(700, function(){});
+    $(this).children().fadeIn(100, function(){});
   });
   $('.interest').mouseleave(function(){
-    $('.subtext').fadeOut(200, function(){});
+    $('.subtext').fadeOut(100, function(){});
   });
 });
