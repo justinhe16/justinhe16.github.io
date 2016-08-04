@@ -1119,6 +1119,20 @@ i {
   text-align: left;
 }
 
+#congressStalker {
+  background: url("../assets/congress.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+#congressStalker:hover {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.5)
+    ), url("../assets/congress.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
 #QuikCarts {
   background: url("../assets/QuikCarts.png");
   background-size: cover;
