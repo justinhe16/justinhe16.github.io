@@ -25,9 +25,9 @@ drk blue: #40A2ED;
 ** 5.0 - Footer
 */
 
-/* 0.0 - Normalize.css 
+/* 0.0 - Normalize.css
  * normalize.css v1.1.3 | MIT License | git.io/normalize
- * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3. 
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
  * {
     -webkit-box-sizing: border-box;
@@ -842,7 +842,7 @@ table {
 
 @-webkit-keyframes fontfix {
   from { opacity: 1; }
-  to { opacity: 1; } 
+  to { opacity: 1; }
 }
 
 h1, h2 {
@@ -902,7 +902,7 @@ body {
 }
 
 #particles-js {
-  position: absolute; 
+  position: absolute;
   z-index: 1;
   width: 100%;
   height: 110%;
@@ -1051,7 +1051,7 @@ i {
   width: 100%;
   position: relative;
   float: left;
-  clear: none; 
+  clear: none;
   background: #8FCDFC;
 }
 
@@ -1070,7 +1070,7 @@ i {
 #interests {
   width: 100%;
   position: relative;
-  background: #BFE3FE; 
+  background: #BFE3FE;
   float: left;
 }
 
@@ -1089,7 +1089,7 @@ i {
   max-height: 20em;
   display: inline-block;
   float: left;
-  background: #8FCDFC; 
+  background: #8FCDFC;
   text-align: center;
   font-size: 40px;
   font-weight: 300;
@@ -1126,7 +1126,7 @@ i {
 }
 #congressStalker:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.5)
     ), url("../assets/congress.png");
   background-size: cover;
@@ -1140,9 +1140,24 @@ i {
 }
 #QuikCarts:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.5)
     ), url("../assets/QuikCarts.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#TommyBot {
+  background: url("../assets/TommyBot.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#TommyBot:hover {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5)
+    ), url("../assets/TommyBot.png");
   background-size: cover;
   background-repeat: repeat;
 }
@@ -1154,7 +1169,7 @@ i {
 }
 #Duelr:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.5)
     ), url("../assets/Duelr.png");
   background-size: cover;
@@ -1168,7 +1183,7 @@ i {
 }
 #TrinDebate:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.5)
     ), url("../assets/TrinDebate.png");
   background-size: cover;
@@ -1182,7 +1197,7 @@ i {
 }
 #Signal:hover {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.5)
     ), url("../assets/Signal.png");
   background-size: cover;
