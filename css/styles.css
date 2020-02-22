@@ -1,0 +1,134 @@
+/* Universal */
+html, body {
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Responsiveness */
+.topbump {
+  padding-top: 11vh;
+}
+
+.phonepadding {
+  padding-bottom: 7vh;
+}
+
+/* screens bigger than standard phone sizes */
+@media only screen and (min-width: 768px) {
+  .topbump {
+    padding-top: 25vh;
+  }
+  .phonepadding {
+    padding-bottom: 0vh;
+  }
+}
+
+.min-100 {
+  min-height: 100%;
+}
+
+/* Profile Picture CSS and Effects */
+#profile {
+    width: 300px; /* width of container */
+    height: 350px; /* height of container */
+    object-fit: cover;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+    filter: grayscale();
+    transition: filter 200ms ease-in-out;
+    position: relative;
+    z-index: -1;
+    animation: fadeInTop 1.5s;
+}
+
+/* JH Signature CSS */
+svg {
+  padding-left: 225px;
+  margin-top: -75px;
+  position: relative;
+  z-index: 10;
+}
+
+/* JH signature CSS Animation */
+.cls-1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1.7s ease-in 2.0s forwards;
+  fill:none;
+  stroke:#000;
+  stroke-miterlimit:10;
+  stroke-width:3px;
+}
+
+.cls-2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2.7s ease-out 2.85s forwards;
+}
+
+.cls-3 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2.7s linear 3.05s forwards;
+}
+
+.rectangle {
+  fill: gray;
+  opacity: 0.5;
+  animation: fadeInBottom 2s;
+}
+
+.rightside {
+  animation: fadeInRight 2s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeInTop {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
