@@ -23,7 +23,7 @@ p {
 /* screens bigger than standard phone sizes */
 @media only screen and (min-width: 768px) {
   .topbump {
-    padding-top: 25vh;
+    padding-top: 20vh;
   }
   .phonepadding {
     padding-bottom: 0vh;
@@ -36,12 +36,12 @@ p {
 
 /* Profile Picture CSS and Effects */
 #profile {
-    width: 300px; /* width of container */
-    height: 350px; /* height of container */
+    width: 400px; /* width of container */
+    height: 475px; /* height of container */
     object-fit: cover;
     clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
-    filter: grayscale();
-    transition: filter 200ms ease-in-out;
+    /* filter: grayscale();
+    transition: filter 200ms ease-in-out; */
     position: relative;
     z-index: -1;
     animation: fadeInTop 1.5s;
