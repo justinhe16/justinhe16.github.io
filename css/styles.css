@@ -132,3 +132,13 @@ svg {
     transform: translateX(0);
   }
 }
+
+/* shapes */
+.parallelogram {
+  width: 40px;
+  height: 25px;
+  transform: skew(20deg);
+  border: 4px solid blue;
+  border-radius: 2px;
+  opacity: 50%;
+}
