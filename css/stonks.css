@@ -1,0 +1,53 @@
+#account1, #account2 {
+  width: auto;
+  height: 48vh;
+}
+
+#account1 {
+  margin-bottom: 1vh;
+}
+
+#account2 {
+}
+
+#disclaimer {
+  background-color: #D3D3D3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#updatecards {
+  width: auto;
+  height: 70vh;
+  overflow-y:scroll;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.green {
+  background-color: #90ee90;
+}
+
+.red {
+  background-color: #ffcccb;
+}
+
+.recap {
+  background-color: #add8e6;
+}
+
+p {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+  margin-bottom: 10px;
+}

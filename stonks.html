@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>Justin He</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Merriweather&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/stonks.css">
+
+  <!-- JS -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md">
+      <canvas id="account1"></canvas>
+      <canvas id="account2"></canvas>
+    </div>
+    <div class="col-md">
+      <div id="disclaimer">
+        <p> Hello Friends! This is my <u>stonks website</u> where I continually update my positions and my thoughts on the market. I will be keeping track of TWO accounts -- account one is a long term account with investments in longs and more fundamental plays, while account two is an agressive options-only account that does 50% long term plays and 50% mid/short term plays.
+          Please note that <b> I am not a financial advisor </b> and none of the info on this site should be taken as financial advice. Do your own due dilligence and use this information at your own risk! </br>
+        </br>
+        The point of this site is <b>two things</b>:
+        </br> a) keep track of my plays in order to improve my strategies across time
+      </br> b) share my learning with my friends as I want all my friends to make tendies <p>
+      </div>
+      <div id="updatecards" class="overflow-auto">
+        <div class="card recap">
+          <div class="card-body">
+            <h2 class="card-title">Card title</h2>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+</html>
+
+<script>
+var ctx = document.getElementById('account1').getContext('2d');
+var chart = new Chart(ctx, {
+  // The type of chart we want to create
+  type: 'line',
+
+  // The data for our dataset
+  data: {
+      labels: ["1/25/21", "1/26/21","1/27/21"],
+      datasets: [{
+          label: 'Account One',
+          borderColor: 'rgb(255, 99, 132)',
+          lineTension: 0,
+          data: [45000, 46000, 48000]
+      }]
+  },
+
+  // Configuration options go here
+  options: {}
+});
+</script>
+<script>
+var ctx = document.getElementById('account2').getContext('2d');
+var chart = new Chart(ctx, {
+  // The type of chart we want to create
+  type: 'line',
+
+  // The data for our dataset
+  data: {
+      labels: ["1/25/21", "1/26/21","1/27/21"],
+      datasets: [{
+          label: 'Account Two',
+          borderColor: 'rgb(135, 137, 192)',
+          lineTension: 0,
+          data: [45000, 46000, 48000]
+      }]
+  },
+
+  // Configuration options go here
+  options: {}
+});
+</script>
