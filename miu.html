@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: hotpink;
+        }
+
+        #valentine-container {
+            text-align: center;
+        }
+
+        #no-button {
+            margin-right: 10px;
+        }
+
+        #hidden-section {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="valentine-container">
+    <img src="https://placekitten.com/300/300" alt="Cute Placeholder Image">
+    <p>Miu, will you be my valentine? &lt;3 :) -- Justin</p>
+    <button id="yes-button">Yes</button>
+    <button id="no-button" style="position: absolute">No</button>
+</div>
+
+<div id="hidden-section">
+    <img src="https://placekitten.com/400/400" alt="Another Cute Placeholder Image">
+    <p>Thanks for being my valentine! <3 :) We have a reservation at 7PM, so we gotta get home QUICKLY! Will pick u up at 5PM <3</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#no-button").click(function () {
+            // Move the button to a random position on the page using css method
+            var newPosition = {
+                top: Math.random() * ($(document).height() - $("#no-button").height()),
+                left: Math.random() * ($(document).width() - $("#no-button").width())
+            };
+
+            $("#no-button").animate({
+                top: newPosition.top,
+                left: newPosition.left,
+                'z-index': 1000
+            });
+        });
+
+        $("#yes-button").click(function () {
+            $("#valentine-container").hide()
+            $("#hidden-section").show()
+        });
+    });
+</script>
+
+</body>
+</html>
